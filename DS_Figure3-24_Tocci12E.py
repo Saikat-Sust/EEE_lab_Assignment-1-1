@@ -1,5 +1,6 @@
+
 '''
-Figure              : 3-24
+Figure              : 3-(24)
 page                : 91
 Name of the book    : digital systems (principles & applications)
 Writer              :  1) NEAL S. WIDMER
