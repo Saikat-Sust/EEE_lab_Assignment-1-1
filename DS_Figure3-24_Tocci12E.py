@@ -35,7 +35,7 @@ with schemdraw.Drawing() as d:
     d += logic.Line().right(d.unit*1).at(Y.out).label('$\overline{C+D}$')
     d += logic.Line().right(d.unit*2)
 
-    # Create a two input Nand gate
+    # Create a three input Nand gate
     d += (X := logic.Nand(inputs=3).anchor('in1'))
     d += logic.Line().left().at(X.in1).label('0').at(X.in1)
     d += logic.Line().left().at(X.in2)
